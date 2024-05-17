@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Craft Alchemy provides innovative AI solutions to transform your business. Explore our custom AI services, data analytics, and process automation.">
+    <title>AI Craft Alchemy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        nav .logo h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            padding: 5px 0;
+        }
+        nav ul li a:hover::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            left: 0;
+            bottom: -5px;
+        }
+        .hero {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #333;
+            background-color: #e0f7fa;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(224, 247, 250, 0.8);
+            border-radius: 10px;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+            z-index: 1;
+            position: relative;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            border-radius: 10px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .section p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .section a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        .section a:hover {
+            color: #388E3C;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .service {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: color 0.3s ease-in-out;
+        }
+        footer .social-icons a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>AI Craft Alchemy</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="hero">
+            <h2>Your Vision, Our Solution, One Solution</h2>
+        </div>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Welcome to AI Craft Alchemy, where we specialize in teaching Artificial Intelligence, Machine Learning, and Deep Learning. Our team of experts is dedicated to providing comprehensive education and training, as well as handling projects of all sizes, from small tasks to large-scale implementations. Whether you want to learn or need a custom solution, AI Craft Alchemy is here to help you succeed.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Artificial Intelligence</h3>
+                    <p>We develop cutting-edge AI solutions to address your specific business challenges and opportunities.</p>
+                </div>
+                <div class="service">
+                    <h3>Machine Learning</h3>
+                    <p>Our machine learning services help you make data-driven decisions by extracting valuable insights from your data.</p>
+                </div>
+                <div class="service">
+                    <h3>Deep Learning</h3>
+                    <p>We utilize deep learning techniques to automate complex tasks and processes, increasing efficiency and reducing operational costs.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:aicraftalchemy@gmail.com">aicraftalchemy@gmail.com</a></p>
+            <p>Phone: +91 7661081043</p>
+        </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 AI Craft Alchemy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
