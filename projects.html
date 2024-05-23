@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .project {
+            background: #ffffff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+        }
+        .project-content {
+            padding: 10px;
+        }
+        .project-content h3 {
+            margin: 0 0 10px;
+        }
+        .project-content p {
+            line-height: 1.6;
+        }
+        .project-content a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .project-content a:hover {
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .project {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Projects</h1>
+    </header>
+    <div class="container">
+        <div class="project">
+            <div class="project-content">
+                <h3>A Novel Approach to Endoscopic Surgeon Action Detection with STN, EfficientNet-B2 with FPN</h3>
+                <p>Minimally invasive surgery (MIS) is a specialized medical technique crucial for delicate procedures, often involving a primary surgeon and an assistant. The success of MIS hinges on various factors, including the surgeons' concentration, skills, teamwork, and other critical aspects. However, such procedures carry inherent risks, prompting the exploration of technologies to mitigate human error. Artificial intelligence (AI) plays a pivotal role in enhancing precision and efficiency in high-stakes applications. Robotic minimally invasive surgery (RMIS) integrates AI algorithms with robotic arms to conduct surgeries remotely, minimizing patient trauma. The ESAD (Endoscopic Surgeon Activity Detection) dataset represents a significant advancement in addressing the challenge of identifying and monitoring surgeon activities during endoscopic MIS procedures. By compiling a comprehensive dataset, ESAD enables researchers to develop and validate AI algorithms capable of recognizing and analyzing surgeon actions in real-time. This dataset facilitates the creation of AI-powered systems that can assist surgeons during procedures, enhance training programs, and improve overall patient outcomes. In essence, ESAD serves as a foundational resource for advancing the field of RMIS and promoting safer, more efficient surgical practices.</p>
+                <p><strong>Project Challenge Link:</strong> <a href="https://saras-esad.grand-challenge.org" target="_blank">https://saras-esad.grand-challenge.org</a></p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-content">
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-content">
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
