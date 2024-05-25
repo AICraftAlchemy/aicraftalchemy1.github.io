@@ -41,6 +41,7 @@
         }
         .project-content {
             padding: 10px;
+            position: relative;
         }
         .project-content h3 {
             margin: 0 0 10px;
@@ -54,6 +55,25 @@
         }
         .project-content a:hover {
             text-decoration: underline;
+        }
+        .project img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .show-images-btn {
+            position: absolute;
+            bottom: -10px;
+            right: 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .show-images-btn:hover {
+            background-color: #218838;
         }
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -71,21 +91,25 @@
     <div class="container">
         <div class="project">
             <div class="project-content">
+                <img src="static/project1/image.jpeg" alt="Project 1 Image">
                 <h3>A Novel Approach to Endoscopic Surgeon Action Detection with STN, EfficientNet-B2 with FPN</h3>
-                <p>Minimally invasive surgery (MIS) is a specialized medical technique crucial for delicate procedures, often involving a primary surgeon and an assistant. The success of MIS hinges on various factors, including the surgeons' concentration, skills, teamwork, and other critical aspects. However, such procedures carry inherent risks, prompting the exploration of technologies to mitigate human error. Artificial intelligence (AI) plays a pivotal role in enhancing precision and efficiency in high-stakes applications. Robotic minimally invasive surgery (RMIS) integrates AI algorithms with robotic arms to conduct surgeries remotely, minimizing patient trauma. The ESAD (Endoscopic Surgeon Activity Detection) dataset represents a significant advancement in addressing the challenge of identifying and monitoring surgeon activities during endoscopic MIS procedures. By compiling a comprehensive dataset, ESAD enables researchers to develop and validate AI algorithms capable of recognizing and analyzing surgeon actions in real-time. This dataset facilitates the creation of AI-powered systems that can assist surgeons during procedures, enhance training programs, and improve overall patient outcomes. In essence, ESAD serves as a foundational resource for advancing the field of RMIS and promoting safer, more efficient surgical practices.</p>
+                <p>Minimally invasive surgery (MIS) is a specialized medical technique crucial for delicate procedures, often involving a primary surgeon and an assistant. The success of MIS hinges on various factors, including the surgeon's concentration, skills, teamwork, and other critical aspects. However, such procedures carry inherent risks, prompting the exploration of technologies to mitigate human error. Artificial intelligence (AI) plays a pivotal role in enhancing precision and efficiency in high-stakes applications. Robotic minimally invasive surgery (RMIS) integrates AI algorithms with robotic arms to conduct surgeries remotely, minimizing patient trauma. The ESAD (Endoscopic Surgeon Activity Detection) dataset represents a significant advancement in addressing the challenge of identifying and monitoring surgeon activities during endoscopic MIS procedures. By compiling a comprehensive dataset, ESAD enables researchers to develop and validate AI algorithms capable of recognizing and analyzing surgeon actions in real-time. This dataset facilitates the creation of AI-powered systems that can assist surgeons during procedures, enhance training programs, and improve overall patient outcomes. In essence, ESAD serves as a foundational resource for advancing the field of RMIS and promoting safer, more efficient surgical practices.</p>
                 <p><strong>Project Challenge Link:</strong> <a href="https://saras-esad.grand-challenge.org" target="_blank">https://saras-esad.grand-challenge.org</a></p>
             </div>
         </div>
         <div class="project">
             <div class="project-content">
-                <h3></h3>
-                <p></p>
+                <img src="static/project2/image.jpg" alt="Project 2 Image">
+                <h3>Kidney Tumor Detection and Classification</h3>
+                <p>This project focuses on the detection and classification of kidney tumors. Utilizing advanced imaging techniques and machine learning algorithms, the system can accurately identify the presence of kidney tumors and determine their stage and type. Early and precise detection is crucial for effective treatment and improved patient outcomes. The project integrates a comprehensive dataset of kidney tumor images, enabling the development and validation of robust AI models. These models assist radiologists in diagnosing and planning treatment strategies, enhancing the efficiency and accuracy of medical interventions.</p>
+                <button class="show-images-btn" onclick="window.location.href='static/project2/images.html'">Output Images</button>
             </div>
         </div>
         <div class="project">
             <div class="project-content">
-                <h3></h3>
-                <p></p>
+                <h3>Smart Agriculture with IoT</h3>
+                <p>The Smart Agriculture project leverages Internet of Things (IoT) technology to enhance farming practices and increase crop yields. By deploying a network of sensors across agricultural fields, farmers can collect real-time data on soil moisture, temperature, humidity, and crop health. This data is then analyzed using AI algorithms to provide actionable insights and recommendations. The project aims to optimize irrigation, reduce water usage, and improve pest management, leading to more sustainable and efficient farming practices. By integrating IoT technology, the Smart Agriculture project helps farmers make data-driven decisions, ultimately improving productivity and reducing environmental impact.</p>
+                <p><strong>Project Overview Link:</strong> <a href="https://smart-agriculture.project" target="_blank">https://smart-agriculture.project</a></p>
             </div>
         </div>
     </div>
